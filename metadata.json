@@ -1,0 +1,6 @@
+{
+  "name": "Hrick's 9 Lives with BB",
+  "description": "A cozy 2D life-simulation game following BB and her autonomous companion cat, Hrick, through nine chapters of shared everyday memories and free-play.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
