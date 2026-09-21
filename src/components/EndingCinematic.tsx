@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MEMORY_TOKENS } from '../game/constants';
-import { Heart, Sparkles, Home } from 'lucide-react';
+import { Heart, Home } from 'lucide-react';
 
 interface EndingCinematicProps {
   onFinish: () => void;
@@ -64,10 +64,6 @@ export const EndingCinematic: React.FC<EndingCinematicProps> = ({ onFinish }) =>
       {/* Final Chapter Card */}
       {step >= 6 && (
         <div className="max-w-md space-y-6 animate-fade-in">
-          <div className="p-4 rounded-full bg-[#DE8C4C]/20 w-16 h-16 mx-auto flex items-center justify-center border border-[#DE8C4C]/40">
-            <Sparkles className="w-8 h-8 text-[#FFE6A7]" />
-          </div>
-
           <div className="space-y-3">
             <h1 className="text-2xl sm:text-3xl font-bold font-comfortaa text-[#FFE6A7] leading-relaxed">
               “Thank you for finding me, BB.”
